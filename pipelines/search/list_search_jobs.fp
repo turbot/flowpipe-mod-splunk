@@ -2,10 +2,6 @@ pipeline "list_search_jobs" {
   title       = "List Search Jobs"
   description = "List all search Jobs."
 
-  tags = {
-    type = "featured"
-  }
-
   param "access_token" {
     type        = string
     default     = var.access_token

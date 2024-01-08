@@ -2,10 +2,6 @@ pipeline "create_search_job" {
   title       = "Create Search Job"
   description = "Create a Search Job."
 
-  tags = {
-    type = "featured"
-  }
-
   param "access_token" {
     type        = string
     default     = var.access_token
